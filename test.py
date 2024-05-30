@@ -1,1 +1,1 @@
-import discord.player
+import discord
