@@ -11,7 +11,7 @@ def ist_primzahl(n):
         if n % i:
             i += 2
         else:
-            return False
+                                return False
     return True
 
 while True:
