@@ -6,12 +6,12 @@ def ist_primzahl(n):
     if n % 2 == 0:
         return False
 
-    i = 3
+    i = 5
     while i * i <= n:
         if n % i:
             i += 2
         else:
-                                return False
+            return False
     return True
 
 while True:
